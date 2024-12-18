@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Information</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+<!--card-->
+<div class="card m-3 ">
+    <!--card header-->
+    <div class="card-header text-light bg-secondary">
+        <h3>Patient basic Information</h3>
+    </div>
+    <!--crd body-->
+    <div class="card-body " style="background-color: hsl(0, 0%, 90%)">
+        <form action="">
+            <!--first row-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <label class="form-label">first name*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-user" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter full name ">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">gender*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-venus-mars" style="color: blue;"></i>
+                        </span>
+                        <select class="form-select">
+                             <option value="">male</option>
+                             <option value="">female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">enter email*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-envelope" style="color: blue;"></i>
+                        </span>
+                        <input type="email" class="form-control" placeholder="enter email ">
+                    </div>
+                </div>
+
+            </div>
+            <!--second row-->
+            <div class="row my-4">
+                <div class="col-sm-4">
+                    <label class="form-label">current address*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-house" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter current address ">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">last name*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-house" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter last name">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">age*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-box" style="color: blue;"></i>
+                        </span>
+                        <input type="number" class="form-control" placeholder="enter age ">
+                    </div>
+                </div>
+
+            </div>
+            <!--third row-->
+            <div class="row my-4">
+                <div class="col-sm-4">
+                    <label class="form-label">contact number*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-phone" style="color: blue;"></i>
+                        </span>
+                        <input type="number" class="form-control" placeholder="enter current address ">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">profile photo*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-camera" style="color: blue;"></i>
+                        </span>
+                        <input type="file" class="form-control" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <!-- 4 row-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <label class="form-label">heigth*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-ruler" style="color: blue;"></i>
+                        </span>
+                        <input type="number" class="form-control" placeholder="enter your heigth ">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">blood group*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-droplet" style="color: red;"></i>
+                        </span>
+                        <select class="form-select">
+                             <option value="">A+</option>
+                             <option value="">B+</option>
+                             <option value="">A-</option>
+                             <option value="">AB+</option>
+                             <option value="">B-</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">pulse*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-heart-pulse" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter pulse rate ">
+                    </div>
+                </div>
+
+            </div>
+            <!--5 ROW-->
+            <div class="row my-4">
+                <div class="col-sm-4">
+                    <label class="form-label">allergy details</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-hand" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter allegry details ">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">weight*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-weight-scale" style="color: blue;"></i>
+                        </span>
+                        <input type="number" class="form-control" placeholder="enter your weight">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">blodd prussure*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-clock" style="color: blue;"></i>
+                        </span>
+                        <input type="number" class="form-control" placeholder="enter blood prussure ">
+                    </div>
+                </div>
+
+            </div>
+            <!--6 ROW-->
+            <div class="row my-4">
+                <div class="col-sm-4">
+                    <label class="form-label">respiration*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-lungs" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter respiration heigth ">
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">deit*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-utensils" style="color: blue;"></i>
+                        </span>
+                        <select class="form-select">
+                             <option value="">vegetarsin</option>
+                             <option value="">viatmins</option>
+                             <option value="">idk</option>
+                            
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <label class="form-label">addition info*</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-clock-twelve-thirty" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="optional ">
+                    </div>
+                </div>
+
+            </div>
+            <!--7 ROW - Buttons (Save, Update, Delete, Search)-->
+            <div class="row g-3">
+                <div class="col-sm-3">
+                    <button class="btn btn-success" style="width: 100%;">
+                        <i class="fa-solid fa-floppy-disk"></i>save</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-warning" style="width: 100%;">
+                        <i class="fa-solid fa-pen"></i>update</button>
+                </div>
+
+                <div class="col-sm-3">
+                    <button class="btn btn-danger" style="width: 100%;">
+                        <i class="fa-solid fa-trash"></i>delete</button>
+                </div>
+
+                <div class="col-sm-3">
+                    <button class="btn btn-info text-light" style="width: 100%;">
+                        <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>search</button>
+                </div>
+            
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+
+</html>

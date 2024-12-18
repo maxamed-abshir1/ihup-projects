@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Request</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!--card-->
+<div class="card m-4">
+    <!--card-header-->
+    <div class="card-header bg-secondary text-light">
+        <h3> blood reuquest form </h3>
+    </div>
+    <!--card body-->
+    <div class="card-body" style="background-color: hsl(0, 0%, 90%)">
+        <form action="">
+
+    <!--full name emial and phone in one row-->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label class="form-label">full name</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-user" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter your name">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label"> email</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-envelope" style="color: blue;"></i>
+                        </span>
+                        <input type="email" class="form-control" placeholder="enter your email">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label"> phone</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-phone" style="color: blue;"></i>
+                        </span>
+                        <input type="number" class="form-control" placeholder="enter your phone">
+                    </div>
+                </div>
+            </div>
+
+            <!--region town nad vilage in one row-->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <label class="form-label"> region</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-location-dot" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter region name">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label"> town</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-city" style="color: blue;"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="enter town ">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label"> vilage</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-sharp fa-solid fa-house-night" style="color: blue;"></i>
+                        </span>
+                        <input type="number"class="form-control" placeholder="enter vilage">
+                    </div>
+                </div>
+            </div>
+
+            <!-- blood type colum in one row-->
+
+            <di class="row">
+                <div class="col-sm-6">
+                    <label class="form-label"> blood type</label>
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-droplet" style="color: red;"></i>
+                        </span>
+                        <select class="form-select">
+                            <option value="">A+</option>
+                            <option value="">A-</option>
+                            <option value="">B-</option>
+                            <option value="">B+</option>
+                        </select>
+                    </div>
+                </div>
+            </di>
+
+            <!-- Buttons (Save, Update, Delete, Search) -->
+
+            <div class="row mt-3">
+                <div class="col-sm-3">
+                    <button class="btn btn-success" style="width: 100% ;"> 
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Request</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-danger" style="width: 100% ;"> <i class="fa-solid fa-rotate-left"></i> reset</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-warning" style="width: 100% ;"> <i class="fa-solid fa-pen"></i>update</button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-info" style="width: 100% ;"> 
+                        <i class="fa-solid fa-magnifying-glass"></i> search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--second card-->
+<div class="card m-3">
+    <div class="card-header">
+        <h3> list of blood reuquest</h3>
+    </div>
+    <div class="card-body">
+        <!--reuquest table in card-body -->
+        <table class="table table-striped table-borderless table-hover">
+            <thead>
+                <tr>
+                <th>#</th>
+                <th>name</th>
+                <th>email</th>
+                <th>phone</th>
+                <th>region</th>
+                <th>town</th>
+                <th>vilage</th>
+                <th>boold type</th>
+                <th>status</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>ahmed ali</td>
+                <td>ahmed
+                    @gmial.com</td>
+                <td>123-
+                    33-2
+                </td>
+                <td>banadir</td>
+                <td>mug-
+                    disho</td>
+                <td>hodan</td>
+                <td>A-</td>
+                <td>accept</td>
+                </tr>  
+                <tr>
+                    <td>2</td>
+                    <td> ali</td>
+                    <td>ali
+                        @gmial.com</td>
+                    <td>123-
+                        33-2
+                    </td>
+                    <td>bari</td>
+                    <td>bo-
+                        saso</td>
+                    <td>xeryah</td>
+                    <td>B-</td>
+                    <td>reject</td>
+                    </tr>  
+                    <tr>
+                        <td>3</td>
+                        <td>cise ali</td>
+                        <td>ahmed
+                            @cise.com</td>
+                        <td>123-
+                            33-2
+                        </td>
+                        <td>banadir</td>
+                        <td>mug-
+                            disho</td>
+                        <td>hodan</td>
+                        <td>A+</td>
+                        <td>waiting</td>
+                        </tr>  
+                        <tr>
+                            <td>4</td>
+                            <td>ASIYO ali</td>
+                            <td>asiyo
+                                @gmial.com</td>
+                            <td>123-
+                                33-2
+                            </td>
+                            <td>sanaag</td>
+                            <td>cer-
+                                gaabo</td>
+                            <td>idk</td>
+                            <td>AB-</td>
+                            <td>accept</td>
+                            </tr>  
+            </tbody>
+        </table>
+
+    </div>
+</div>
+    
+</body>
+
+</html>

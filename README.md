@@ -1,5 +1,5 @@
 # Frontend and backend-Projects
-[project one ](project_1)
+[project one ](<project 1>)
 
 # citycot ihup projects
 kuso dhawow CITCYcot,IHUP! repositorg gan waxu ka koban yahy frontend and backend projects from CITYCOT IHUP 

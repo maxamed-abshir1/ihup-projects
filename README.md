@@ -1,5 +1,5 @@
 
-<a href='<project 1>'>project one</a>
+<a href='project%201'>project one</a>
 
 # citycot ihup projects
 kuso dhawow CITCYcot,IHUP! repositorg gan waxu ka koban yahy frontend and backend projects from CITYCOT IHUP 
